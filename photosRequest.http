@@ -1,0 +1,17 @@
+### Get Default
+GET http://localhost:8080/
+
+### Get Custom Text
+GET http://localhost:8080/test
+
+### Get Photos list
+GET http://localhost:8080/getPhotos
+
+### Get Photo with Id
+GET http://localhost:8080/getPhoto/1
+
+### Get Photo with invalid id
+GET http://localhost:8080/getPhoto/5
+
+### Delete Photo
+DELETE http://localhost:8080/deletePhoto/1
